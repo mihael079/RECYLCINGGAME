@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.bins {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.bin {
+    width: 100px;
+    height: 50px;
+    margin: 0 10px;
+    background-color: #ccc;
+    border: 2px solid #333;
+    cursor: pointer;
+    line-height: 50px;
+}
+
+#item {
+    font-size: 24px;
+    margin-bottom: 20px;
+}

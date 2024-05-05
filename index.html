@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycling Sorting Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="startGame()">
+    <h1>Recycling Sorting Game</h1>
+    <div class="bins">
+        <img src="plastic_bin.png" class="bin" id="plastic" onclick="sort('Plastic')" alt="Plastic Bin">
+        <img src="glass_bin.png" class="bin" id="glass" onclick="sort('Glass')" alt="Glass Bin">
+        <img src="metal_bin.png" class="bin" id="metal" onclick="sort('Metal')" alt="Metal Bin">
+        <img src="paper_bin.png" class="bin" id="paper" onclick="sort('Paper')" alt="Paper Bin">
+    </div>
+    <div id="item"></div>
+    <script src="script.js"></script>
+</body>
+</html>
